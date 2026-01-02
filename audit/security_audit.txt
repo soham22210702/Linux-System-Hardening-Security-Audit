@@ -1,0 +1,8 @@
+#user account 
+cat /etc/passwd
+#running services
+systemctl list-units --type=service
+#open port
+ss -tuln
+#file permissions
+ls -l /etc/passwd
