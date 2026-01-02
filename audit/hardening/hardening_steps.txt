@@ -1,0 +1,12 @@
+#Disable Unused Services
+sudo systemctl disable bluetooth
+#Firewall (UFW)
+sudo ufw enable
+sudo ufw allow ssh
+#Secure SSH
+sudo nano /etc/ssh/sshd_config
+#Change:
+PermitRootLogin no
+Restart SSH:
+sudo systemctl restart ssh
+
