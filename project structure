@@ -1,0 +1,12 @@
+linux-system-hardening/
+│
+├── audit/
+│   └── security_audit.txt
+│
+├── hardening/
+│   └── hardening_steps.txt
+│
+├── screenshots/
+│   └── before_after.png (optional)
+│
+└── README.md
